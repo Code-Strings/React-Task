@@ -56,7 +56,7 @@ function App()
           {err ? <p></p> : <Alert variant="danger" onClose={() => setError(true)} dismissible>
             <Alert.Heading>Error!</Alert.Heading>
             <p>
-              enterred user name or password is wrong!
+              entered user name or password is wrong!
               </p>
           </Alert>}
           {console.log("check==> " + user.loggedin)}
